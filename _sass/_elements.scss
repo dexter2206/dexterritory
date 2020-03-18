@@ -55,6 +55,10 @@ figure {
     }
   }
 }
+figcaption a {
+  border-bottom: 1px dotted rgba(162,162,162,0.8);
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -153,4 +157,12 @@ figure.center img{
   padding: 20px;
   border: 1px solid $comp-color;
   @include rounded(4px);
+}
+
+.warning {
+  padding: 20px;
+  background-color: #fff3cd;
+  color: #856404;
+  border-colo: #ffeeba;
+  border: 1px solid transparent;
 }
