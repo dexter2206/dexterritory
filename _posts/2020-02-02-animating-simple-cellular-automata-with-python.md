@@ -56,7 +56,7 @@ along with its neighbours.
     </a>
 	</center>
 	<figcaption>
-    An example of a 4x5 grid. All eight neighbours of a red cell are marked with orange.
+    An example of a 4x5 grid. All eight neighbours of a red cell are marked with blue.
 	</figcaption>
 </figure>
 
@@ -123,14 +123,14 @@ For instance, assuming that we don't wrap edges, this is an example of transform
 <figure>
 $$
 \begin{bmatrix}
-  0  &  1  &  0  &  1 \\
-  1  &  1  &  1  &  0 \\
+  {\color{red} {\mathbf{0}}}  & {\color{blue} {\mathbf{1}}}  &  0  &  1 \\
+  {\color{blue} {\mathbf{1}}}  &  {\color{blue} {\mathbf{1}} } &  1  &  0 \\
   0  &  0  &  1  &  0 \\
   1  &  0  &  1  &  0 
 \end{bmatrix} \mapsto
 
 \begin{bmatrix}
-  3  &  3  &  4  &  1 \\
+  {\color{red} {\mathbf{3}}}  &  3  &  4  &  1 \\
   2  &  4  &  4  &  3 \\
   3  &  6  &  3  &  3 \\
   0  &  3  &  1  &  2 
@@ -146,14 +146,14 @@ And here is how the same transformation looks like if we glue the opposite edges
 <figure>
 $$
 \begin{bmatrix}
-  0  &  1  &  0  &  1 \\
-  1  &  1  &  1  &  0 \\
+{\color{red} {\mathbf{0}}}  & {\color{blue} {\mathbf{1}}}  &  0  &  {\color{blue} {\mathbf{1}}} \\
+  {\color{blue} {\mathbf{1}}}  &  {\color{blue} {\mathbf{1}} } &  1  &  0 \\
   0  &  0  &  1  &  0 \\
-  1  &  0  &  1  &  0 
+  {\color{blue} {\mathbf{1}}}  &  0  &  1  &  {\color{blue} {\mathbf{0}}}
 \end{bmatrix} \mapsto
 
 \begin{bmatrix}
-  5  &  5  &  5  &  4 \\
+  {\color{red} {\mathbf{5}}}  &  5  &  5  &  4 \\
   3  &  4  &  4  &  4 \\
   3  &  6  &  3  &  5 \\
   2  &  4  &  3  &  4 
