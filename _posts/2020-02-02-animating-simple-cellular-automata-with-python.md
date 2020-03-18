@@ -6,9 +6,8 @@ categories:
 description:
 tags: []
 image:
-  feature:
-  credit:
-  creditlink:
+  feature: "cellular-automata/pentadecathlon.png"
+
 comments:
 description: Learn how to combine Python's scientific stack with MoviePy to animate spaceships, oscillators, guns and expanding mazes.
 share:
