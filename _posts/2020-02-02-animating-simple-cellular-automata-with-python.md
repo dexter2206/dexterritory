@@ -510,7 +510,7 @@ So, to conclude, lets see some nice example animations.
 
 <figure>
 	<center>
-	<img alt="Frothing puffer" data-giffer="/images/cellular-automata/frothing-puffer.gif">
+	<img alt="Frothing puffer" data-gifffer="/images/cellular-automata/frothing-puffer.gif">
 	</center>
 	<figcaption>
 	Frothing puffer, an example of a spaceship, a pattern that can travel inifinitely
