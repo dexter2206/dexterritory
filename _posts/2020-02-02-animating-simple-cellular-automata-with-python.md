@@ -147,9 +147,9 @@ And here is how the same transformation looks like if we glue the opposite edges
 $$
 \begin{bmatrix}
 {\color{red} {\mathbf{0}}}  & {\color{blue} {\mathbf{1}}}  &  0  &  {\color{blue} {\mathbf{1}}} \\
-  {\color{blue} {\mathbf{1}}}  &  {\color{blue} {\mathbf{1}} } &  1  &  0 \\
+  {\color{blue} {\mathbf{1}}}  &  {\color{blue} {\mathbf{1}} } &  1  &    {\color{blue} {\mathbf{0}}} \\
   0  &  0  &  1  &  0 \\
-  {\color{blue} {\mathbf{1}}}  &  0  &  1  &  {\color{blue} {\mathbf{0}}}
+  {\color{blue} {\mathbf{1}}}  &    {\color{blue} {\mathbf{0}}}  &  1  &  {\color{blue} {\mathbf{0}}}
 \end{bmatrix} \mapsto
 
 \begin{bmatrix}
